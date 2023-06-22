@@ -35,3 +35,5 @@ for table in tables:
         print(insert_statement)  # Replace with writing to a file or executing the statement
     
 conn.close()
+
+# REMEMBER TO REPLACE "NONE" WITH NULL, IT ARGUES WITH THE INTERGER
