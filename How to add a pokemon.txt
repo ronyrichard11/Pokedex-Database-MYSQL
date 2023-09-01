@@ -1,0 +1,41 @@
+Add a Pokemon Outline
+
+First:
+Make sure Necessary Information is already inside of the Database. For Example, Generation, Type, Region, Abilities
+
+
+Second:
+
+INSERT INTO Pokemon (
+    Pokedex_id,
+    Pokemon_name,
+    Pokemon_weight,
+    Pokemon_height,
+    Stage_id,
+    Evolve_level,
+    Generation_id,
+    Type_Set_id,
+    Region_id,
+    Devolution,
+    Evolution,
+    Abilities_Set_id
+) VALUES (
+    8,                      -- Pokedex_id
+    'Wartortle',              -- Pokemon_name
+    22.5,                   -- Pokemon_weight
+    0.5,                    -- Pokemon_height
+    1,                      -- Stage_id
+    16,                     -- Evolve_level
+    1,                      -- Generation_id
+    1,                      -- Type_Set_id
+    1,                      -- Region_id
+    NULL,            -- Devolution
+    'Wartortle',             -- Evolution
+    2                       -- Abilities_Set_id
+);
+
+Third:
+Map the Abilities, Type, and Rarity in Tables
+Pokemon_has_rarity
+Pokemon_has_ability
+Pokemon_has_type
