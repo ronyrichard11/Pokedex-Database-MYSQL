@@ -1,0 +1,150 @@
+-- RUN THESE STATEMENTS FIRST
+-- These Insert Into statements exclude any pokemon, this just includes their surrounding values. 
+
+
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('1', 'Overgrow', 'None', 'Chlorophyll');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('2', 'Torrent', 'None', 'Rain Dish');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('3', 'Static', 'None', 'Lightning Rod');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('4', 'Synchronize', 'None', 'None');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('5', 'Multitype', 'None', 'None');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('6', 'Pressure', 'None', 'Telepathy');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('7', 'Blaze', 'None', 'Speed Boost');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('8', 'Synchronize', 'Trace', 'Telepathy');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('9', 'Overgrow', 'None', 'Contrary');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('10', 'Illusion', 'None', 'None');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('11', 'Overgrow', 'None', 'Bulletproof');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('12', 'Keen Eye', 'Infiltrator', 'Own Tempo');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('13', 'Keen Eye', 'Infiltrator', 'Prankster');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('14', 'Overgrow', 'None', 'Long Reach');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('15', 'Torrent', 'None', 'Liquid Voice');
+INSERT INTO abilities (Abilities_Set_id, Ability1, Ability2, Hidden_Ability) VALUES ('16', 'Overgrow', 'None', 'Grassy Surge');
+
+
+INSERT INTO first_appearance (Appearance_id, Appearance, Platform) VALUES ('1', 'Pokemon Red/Blue', 'Game Boy');
+INSERT INTO first_appearance (Appearance_id, Appearance, Platform) VALUES ('2', 'Pokemon Silver/Gold', 'Game Boy');
+INSERT INTO first_appearance (Appearance_id, Appearance, Platform) VALUES ('3', 'Pokemon Ruby/Sapphire', 'Game Boy Advance');
+INSERT INTO first_appearance (Appearance_id, Appearance, Platform) VALUES ('4', 'Pokemon Diamond/Pearl', 'Nintendo DS');
+INSERT INTO first_appearance (Appearance_id, Appearance, Platform) VALUES ('5', 'Pokemon Black/White', 'Nintendo DS');
+INSERT INTO first_appearance (Appearance_id, Appearance, Platform) VALUES ('6', 'Pokemon X/Y', 'Nintendo 3DS');
+INSERT INTO first_appearance (Appearance_id, Appearance, Platform) VALUES ('7', 'Pokemon Sun/Moon', 'Nintendo 3DS');
+INSERT INTO first_appearance (Appearance_id, Appearance, Platform) VALUES ('8', 'Pokemon Sword/Shield', 'Nintendo Switch');
+INSERT INTO first_appearance (Appearance_id, Appearance, Platform) VALUES ('9', 'Pokemon Scarlet/Violet', 'Nintendo Switch');
+
+
+INSERT INTO generation (Generation_id, Generation) VALUES ('1', 'Generation 1');
+INSERT INTO generation (Generation_id, Generation) VALUES ('2', 'Generation II');
+INSERT INTO generation (Generation_id, Generation) VALUES ('3', 'Generation III');
+INSERT INTO generation (Generation_id, Generation) VALUES ('4', 'Generation IV');
+INSERT INTO generation (Generation_id, Generation) VALUES ('5', 'Generation V');
+INSERT INTO generation (Generation_id, Generation) VALUES ('6', 'Generation VI');
+INSERT INTO generation (Generation_id, Generation) VALUES ('7', 'Generation VII');
+INSERT INTO generation (Generation_id, Generation) VALUES ('8', 'Generation VIII');
+INSERT INTO generation (Generation_id, Generation) VALUES ('9', 'Generation IX');
+
+INSERT INTO rarity (Rarity_id, Rarity) VALUES ('1', 'Common');
+INSERT INTO rarity (Rarity_id, Rarity) VALUES ('2', 'Uncommon');
+INSERT INTO rarity (Rarity_id, Rarity) VALUES ('3', 'Rare');
+INSERT INTO rarity (Rarity_id, Rarity) VALUES ('4', 'Legendary');
+INSERT INTO rarity (Rarity_id, Rarity) VALUES ('5', 'Mythic');
+INSERT INTO rarity (Rarity_id, Rarity) VALUES ('6', 'Starter');
+
+
+INSERT INTO region (Region_id, Region) VALUES ('1', 'Kanto');
+INSERT INTO region (Region_id, Region) VALUES ('2', 'Johto');
+INSERT INTO region (Region_id, Region) VALUES ('3', 'Hoenn');
+INSERT INTO region (Region_id, Region) VALUES ('4', 'Sinnoh');
+INSERT INTO region (Region_id, Region) VALUES ('5', 'Unova');
+INSERT INTO region (Region_id, Region) VALUES ('6', 'Kalos');
+INSERT INTO region (Region_id, Region) VALUES ('7', 'Alola');
+INSERT INTO region (Region_id, Region) VALUES ('8', 'Galar');
+INSERT INTO region (Region_id, Region) VALUES ('9', 'Paldea');
+
+
+INSERT INTO stage (Stage_id) VALUES ('1');
+INSERT INTO stage (Stage_id) VALUES ('2');
+INSERT INTO stage (Stage_id) VALUES ('3');
+
+
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('1', 'Grass', 'Poison');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('2', 'Normal', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('3', 'Fire', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('4', 'Water', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('5', 'Electric', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('6', 'Grass', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('7', 'Ice', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('8', 'Fighting', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('9', 'Poison', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('10', 'Ground', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('11', 'Flying', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('12', 'Psychic', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('13', 'Bug', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('14', 'Rock', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('15', 'Ghost', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('16', 'Dragon', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('17', 'Dark', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('18', 'Steel', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('19', 'Fairy', 'None');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('20', 'Fire', 'Flying');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('21', 'Fire', 'Bug');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('22', 'Fire', 'Water');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('23', 'Fire', 'Fighting');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('24', 'Water', 'Flying');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('25', 'Water', 'Poison');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('26', 'Water', 'Psychic');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('27', 'Water', 'Ice');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('28', 'Water', 'Ground');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('29', 'Electric', 'Flying');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('30', 'Electric', 'Steel');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('31', 'Electric', 'Psychic');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('32', 'Grass', 'Psychic');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('33', 'Grass', 'Ground');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('34', 'Grass', 'Fighting');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('35', 'Ice', 'Water');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('36', 'Ice', 'Flying');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('37', 'Ice', 'Psychic');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('38', 'Fighting', 'Psychic');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('39', 'Fighting', 'Flying');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('40', 'Fighting', 'Steel');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('41', 'Poison', 'Psychic');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('42', 'Poison', 'Ground');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('43', 'Poison', 'Bug');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('44', 'Ground', 'Rock');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('45', 'Ground', 'Steel');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('46', 'Ground', 'Fire');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('47', 'Flying', 'Normal');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('48', 'Flying', 'Steel');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('49', 'Flying', 'Electric');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('50', 'Psychic', 'Fairy');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('51', 'Psychic', 'Steel');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('52', 'Psychic', 'Flying');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('53', 'Bug', 'Flying');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('54', 'Bug', 'Poison');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('55', 'Bug', 'Rock');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('56', 'Bug', 'Steel');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('57', 'Bug', 'Grass');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('58', 'Rock', 'Water');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('59', 'Rock', 'Grass');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('60', 'Rock', 'Flying');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('61', 'Rock', 'Bug');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('62', 'Ghost', 'Poison');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('63', 'Ghost', 'Ice');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('64', 'Ghost', 'Flying');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('65', 'Ghost', 'Fire');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('66', 'Dragon', 'Flying');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('67', 'Dragon', 'Ice');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('68', 'Dragon', 'Electric');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('69', 'Dark', 'Flying');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('70', 'Dark', 'Ghost');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('71', 'Dark', 'Steel');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('72', 'Steel', 'Psychic');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('73', 'Steel', 'Rock');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('74', 'Steel', 'Ghost');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('75', 'Steel', 'Fairy');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('76', 'Fairy', 'Flying');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('77', 'Fairy', 'Poison');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('78', 'Fairy', 'Steel');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('79', 'Steel', 'Dragon');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('80', 'Water', 'Dragon');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('81', '???', '???');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('82', 'Grass', 'Ghost');
+INSERT INTO type (Type_Set_id, Type1, Type2) VALUES ('83', 'Water', 'Fairy');
