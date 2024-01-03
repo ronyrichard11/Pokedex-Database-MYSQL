@@ -1,4 +1,4 @@
-MASTER KEY QUERY
+--MASTER KEY QUERY
 
 SELECT
     P.Pokedex_id,
